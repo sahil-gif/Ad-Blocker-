@@ -1,0 +1,10 @@
+{
+    "name": "Parikshit's ad Blocker", 
+    "description": "Adblocker that doesn't get detected <|:) ",
+    "manifest_version": 2,
+    "version": "1.11", 
+    "background": {
+        "scripts": ["blockedsites_v2.js", "sahilblock.js"]
+    },
+    "permissions": ["webRequest", "webRequestBlocking", "http://*/", "https://*/"]
+}
